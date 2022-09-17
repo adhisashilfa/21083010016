@@ -19,22 +19,21 @@ case "$luas" in
    echo -n "Masukkan panjang: ";
    read panjang;
    echo -n "Masukkan lebar: ";
-   read lebar
-
+   read lebar;
    let luas=$panjang*$lebar
    echo "Luas persegi panjang adalah $luas"
    ;;
 
-
  "segitiga")
-   echo -n "Masukkan panjang: ";
-   read panjang;
+   echo -n "Masukkan alas: ";
+   read alas;
    echo -n "Masukkan tinggi: ";
    read tinggi;
-
-   let luas=1/2*$alas*$tinggi
+   c=2
+   let luas=$alas*$tinggi/$c
    echo "Luas segitiga adalah $luas"
    ;;
+
  *)
    echo "Tidak bisa dioperasikan"
    ;;
