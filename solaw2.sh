@@ -35,6 +35,7 @@ case "$luas" in
    let luas=$alas*$tinggi/c
    echo "Luas segitiga adalah $luas"
    ;;
+   
  *)
    echo "Tidak bisa dioperasikan"
    ;;
