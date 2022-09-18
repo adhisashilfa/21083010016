@@ -31,8 +31,8 @@ case "$luas" in
    read panjang;
    echo -n "Masukkan tinggi: ";
    read tinggi;
-
-   let luas=1/2*$alas*$tinggi
+   c=2
+   let luas=$alas*$tinggi/c
    echo "Luas segitiga adalah $luas"
    ;;
  *)
