@@ -1,0 +1,2 @@
+echo "tugas 4.membuat file txt" 
+
