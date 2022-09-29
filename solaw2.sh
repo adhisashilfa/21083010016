@@ -30,10 +30,17 @@ case "$luas" in
    echo -n "Masukkan tinggi: ";
    read tinggi;
    c=2
+<<<<<<< HEAD
    let luas=$alas*$tinggi/$c
    echo "Luas segitiga adalah $luas"
    ;;
 
+=======
+   let luas=$alas*$tinggi/c
+   echo "Luas segitiga adalah $luas"
+   ;;
+   
+>>>>>>> 18a6920d6c08cdbce02ace996ce9a380efaa9265
  *)
    echo "Tidak bisa dioperasikan"
    ;;
